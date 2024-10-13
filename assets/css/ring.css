@@ -1,0 +1,116 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #006056;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+body {
+    background: #f0f5f9 !important;
+}
+
+.card-footer {
+    background: #f7fafc !important;
+}
+
+.centerDiv {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    border-top: 4px solid #006056 !important;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px !important;
+}
+
+label.col-form-label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 2px !important;
+}
+
+.btn-success {
+    background-color: #006056 !important;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #006258 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgb(0 98 88) !important;
+}
+
+.form-select:focus {
+    border-color: #006258 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgb(0 98 88) !important;
+}
+
+.table-green {
+    background-color: #006258 !important;
+    color: #fff
+}
+
+.table-green th {
+    padding: 18px !important;
+}
+
+.w-200p {
+    width: 200px !important;
+}
+
+.f45 {
+    font-size: 45px;
+}
+
+.fileicon {
+    width: 90px;
+    text-align: center;
+    background: #f7f7f7;
+    border-radius: 6px;
+    padding: 6px;
+    margin-left: 14px;
+    color: #006056;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0 !important;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table-black {
+    color: black;
+}
+
+.table-black th {
+    padding: 18px !important;
+}
